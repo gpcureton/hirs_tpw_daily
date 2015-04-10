@@ -26,7 +26,7 @@ class HIRS_TPW_DAILY(Computation):
                                                                 context['tpw_version'], day)
 
         for (i, c) in enumerate(tpw_orbital_contexts):
-            task.input('TPWO-{}'.format(i), HIRS_TPW_ORBITAL().dataset('out').product(c))
+            task.input('TPWO-{}'.format(i), HIRS_TPW_ORBITAL().dataset('out').product(c), True)
 
     def run_task(self, inputs, context):
 

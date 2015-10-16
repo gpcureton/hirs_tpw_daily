@@ -34,7 +34,7 @@ hirs_version = 'v20151014'
 collo_version = 'v20140204'
 csrb_version = 'v20140204'
 ctp_version = 'v20140204'
-tpw_version = 'v20150212'
+tpw_version = 'v20150915'
 interval = TimeInterval(datetime(2009, 1, 1), datetime(2009, 2, 1))
 
 c = HIRS_TPW_DAILY()

@@ -2,7 +2,7 @@ from flo_deploy.packagelib import *
 
 # every module should have a LOG object
 import logging, traceback
-LOG = logging.getLogger(__file__)
+LOG = logging.getLogger(__name__)
 
 
 class HIRS_TPW_DAILY_Package(Package):
